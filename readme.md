@@ -53,3 +53,13 @@ A code repo for HTML assignment/task at Web Dev Cohort
 2. Include a **`<textarea>`** for additional comments.
 3. Add validation to ensure the password is at least 8 characters long using the **`(pattern)`** attribute.
 4. Style the form to center it on the page and add a background color. Styling part is optional but I Recommend to try it.
+
+## Chapter-8
+
+1. Create a simple webpage with the following sections:
+   - Header with a title and navigation menu.
+   - Main content with a section and an article.
+   - Sidebar using **`<aside>`** for related links.
+   - Footer with copyright information.
+2. Use the **aria-label** attribute to improve accessibility in your navigation menu.
+3. Create a blog post layout using semantic elements such as **`<article>`**,**`<header>`** and **`<footer>`**.
