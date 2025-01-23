@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-5</title>
+    <style>
+      .background_center_div {
+        width: 300px;
+        height: 300px;
+        background-image: url("https://ehonami.blob.core.windows.net/media/2016/10/kitchen-kelley-homemade-chai-tea.jpg");
+        background-size: cover;
+        margin: 0 auto;
+      }
+      .center_div {
+        height: 500px;
+        width: 500px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://eoimages.gsfc.nasa.gov/images/imagerecords/0/885/modis_wonderglobe_lrg.jpg"
+      alt="The image depicting earth from space"
+      title="Earth from space"
+      width="400px"
+    />
+
+    <h1>Clickable Image</h1>
+    <a
+      href="https://earthobservatory.nasa.gov/images/885/earth-from-space"
+      target="_blank"
+      ><img
+        src="https://eoimages.gsfc.nasa.gov/images/imagerecords/0/885/modis_wonderglobe_lrg.jpg"
+        alt="The image depicting earth from space"
+        title="Earth from space"
+        width="400px"
+    /></a>
+
+    <!-- Div with image tag and centerd -->
+    <h1>Div with image tag and centerd</h1>
+    <div class="center_div">
+      <img
+        src="https://ehonami.blob.core.windows.net/media/2016/10/kitchen-kelley-homemade-chai-tea.jpg"
+        alt="The chai placed on table"
+        style="width: 100%; height: 100%; object-fit: cover"
+      />
+    </div>
+
+    <!-- Div with background image and centerd -->
+    <h1>Div with background image and centerd</h1>
+    <div class="background_center_div"></div>
+  </body>
+</html>

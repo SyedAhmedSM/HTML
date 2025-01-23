@@ -32,3 +32,11 @@ A code repo for HTML assignment/task at Web Dev Cohort
 2. Create a navigation menu with links to three pages: Home, Services, and Contact.
 3. Add a link that opens in a new tab and another link that downloads a file.
 4. Create an email link that opens the user's email client.
+
+## Chapter-5
+
+1. Add an image to a webpage with the following:
+   - Set the width to 400 pixels.
+   - Add an appropriate alt text and title.
+2. Create a clickable image that links to an external website.
+3. Create a div with a background image, ensuring it covers the entire div and is centered.
