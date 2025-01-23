@@ -23,3 +23,12 @@ A code repo for HTML assignment/task at Web Dev Cohort
 2. Create an ordered list of tasks you do in the morning.
 3. Create a nested list showing different categories of beverages (hot and cold) with examples for each.
 4. Create a description list with at least three terms and their meanings related to programming.
+
+## Chapter-4
+
+1. Create a webpage with the following:
+   - A paragraph with a link to any external website
+   - An anchor link that jumps to a specific section of the same page.
+2. Create a navigation menu with links to three pages: Home, Services, and Contact.
+3. Add a link that opens in a new tab and another link that downloads a file.
+4. Create an email link that opens the user's email client.
