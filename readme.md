@@ -45,4 +45,11 @@ A code repo for HTML assignment/task at Web Dev Cohort
 
 1. Create a table with three columns: "City", "Country", and "Population". Add three rows of data.
 2. Create a table with a caption that lists your favorite foods and their respective categories.
-3. Use **`<colspan>`** and **`<rowspan>`** to create a complex table layout for a weekly schedule.
+3. Use **`(colspan)`** and **`(rowspan)`** to create a complex table layout for a weekly schedule.
+
+## Chapter-7
+
+1. Add a phone number field to the form that accepts only numbers.
+2. Include a **`<textarea>`** for additional comments.
+3. Add validation to ensure the password is at least 8 characters long using the **`(pattern)`** attribute.
+4. Style the form to center it on the page and add a background color. Styling part is optional but I Recommend to try it.

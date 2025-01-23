@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-7</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        padding: 5px;
+        background-color: #d31919;
+        height: 100vh;
+      }
+      input,
+      label {
+        padding: 5px;
+      }
+      button {
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#" method="">
+      <label for="phonenumber">PhoneNumber:</label>
+      <input
+        type="tel"
+        name="phonenumber"
+        id=""
+        placeholder="Enter your phonenumber"
+        title="Enter 10 digit numbers only"
+        pattern="[0-9]{10}"
+        required
+      />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id=""
+        placeholder="Enter your password"
+        title="Password should be 8 characters long or more"
+        pattern=".{8,}"
+        required
+      />
+      <label for="textarea">Additional Comments:</label>
+      <textarea name="textarea" id=""></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
