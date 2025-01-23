@@ -40,3 +40,9 @@ A code repo for HTML assignment/task at Web Dev Cohort
    - Add an appropriate alt text and title.
 2. Create a clickable image that links to an external website.
 3. Create a div with a background image, ensuring it covers the entire div and is centered.
+
+## Chapter-6
+
+1. Create a table with three columns: "City", "Country", and "Population". Add three rows of data.
+2. Create a table with a caption that lists your favorite foods and their respective categories.
+3. Use **`<colspan>`** and **`<rowspan>`** to create a complex table layout for a weekly schedule.
