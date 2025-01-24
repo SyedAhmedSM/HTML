@@ -72,3 +72,12 @@ A code repo for HTML assignment/task at Web Dev Cohort
 2. Create an audio player with two different audio formats.
 3. Embed a YouTube video using an **`<iframe>`**
 4. Create a table listing three common video and audio formats, along with their descriptions.
+
+## Chapter-10
+
+1. Create a webpage with:
+   - A paragraph with an `id` and `class` attribute.
+   - An anchor tag with a `title` and `target` attribute.
+   - An input field with `required` and `placeholder` attributes.
+2. Create a styled paragraph using the `style` attribute.
+3. Use the `data-*` attribute to store custom data.
