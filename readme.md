@@ -45,13 +45,13 @@ A code repo for HTML assignment/task at Web Dev Cohort
 
 1. Create a table with three columns: "City", "Country", and "Population". Add three rows of data.
 2. Create a table with a caption that lists your favorite foods and their respective categories.
-3. Use **`(colspan)`** and **`(rowspan)`** to create a complex table layout for a weekly schedule.
+3. Use **`colspan`** and **`rowspan`** to create a complex table layout for a weekly schedule.
 
 ## Chapter-7
 
 1. Add a phone number field to the form that accepts only numbers.
 2. Include a **`<textarea>`** for additional comments.
-3. Add validation to ensure the password is at least 8 characters long using the **`(pattern)`** attribute.
+3. Add validation to ensure the password is at least 8 characters long using the **`pattern`** attribute.
 4. Style the form to center it on the page and add a background color. Styling part is optional but I Recommend to try it.
 
 ## Chapter-8
@@ -61,5 +61,14 @@ A code repo for HTML assignment/task at Web Dev Cohort
    - Main content with a section and an article.
    - Sidebar using **`<aside>`** for related links.
    - Footer with copyright information.
-2. Use the **aria-label** attribute to improve accessibility in your navigation menu.
+2. Use the **`aria-label`** attribute to improve accessibility in your navigation menu.
 3. Create a blog post layout using semantic elements such as **`<article>`**,**`<header>`** and **`<footer>`**.
+
+## Chapter-9
+
+1. Embed a video on a webpage with the following:
+   - Add controls, autoplay, and a poster image.
+   - Add subtitles using the **`<track>`** tag.
+2. Create an audio player with two different audio formats.
+3. Embed a YouTube video using an **`<iframe>`**
+4. Create a table listing three common video and audio formats, along with their descriptions.

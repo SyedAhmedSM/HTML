@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-9</title>
+    <style>
+      table {
+        border: 2px solid rgb(140 140 140);
+      }
+      th,
+      td {
+        border: 1px solid rgb(160 160 160);
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Displaying video with controls and poster image</h1>
+    <video
+      controls
+      poster="https://images.pexels.com/photos/1624600/pexels-photo-1624600.jpeg"
+      width="620"
+    >
+      <source
+        src="https://videos.pexels.com/video-files/1394254/1394254-uhd_2732_1440_24fps.mp4"
+        type="video/mp4"
+      />
+      <track
+        src="subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+        default
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <h1>Displaying video with controls and autoplay</h1>
+    <video controls autoplay muted width="620">
+      <source
+        src="https://videos.pexels.com/video-files/1394254/1394254-uhd_2732_1440_24fps.mp4"
+        type="video/mp4"
+      />
+      <track
+        src="subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+        default
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <h1><u>Audio with two different formats</u></h1>
+    <h2>MP3 Audio Format</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+    <h2>WAV Audio Format</h2>
+    <audio controls>
+      <source src="audio.wav" type="audio/wav" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <h1>Iframe</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/kfbq1Ug7GXU?si=8aI0I_BOyA7awscH"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <h1>Table listing with Video and Audio Formats</h1>
+    <table>
+      <tr>
+        <th>Format</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>MP4</td>
+        <td>Video</td>
+        <td>
+          A commonly used format for video files, supported by most devices and
+          browsers.MP4 is a widely-used format for storing video and audio, as
+          well as other data like subtitles and images. It’s known for its
+          efficient compression, high quality, and compatibility with most
+          devices and media players.
+        </td>
+      </tr>
+      <tr>
+        <td>AVI</td>
+        <td>Video</td>
+        <td>
+          AVI is a multimedia container format introduced by Microsoft. It can
+          contain both video and audio data in a file container that allows
+          synchronous audio-with-video playback. AVI files can be large, but
+          they maintain good video quality.
+        </td>
+      </tr>
+      <tr>
+        <td>MP4</td>
+        <td>Video</td>
+        <td>
+          MKV is an open standard, free container format that can hold an
+          unlimited number of video, audio, picture, or subtitle tracks in one
+          file. It's known for its flexibility and support for various codecs
+          and features like chapters and metadata.
+        </td>
+      </tr>
+      <tr>
+        <td>MP3</td>
+        <td>Audio</td>
+        <td>
+          A popular audio format known for its compression and high-quality
+          sound.MP3 is a popular audio format known for its efficient
+          compression and high-quality sound. It reduces the file size by
+          removing frequencies that are less audible to human ears, making it
+          ideal for music streaming and storage on portable devices.
+        </td>
+      </tr>
+      <tr>
+        <td>OGG</td>
+        <td>Audio</td>
+        <td>
+          OGG is a free and open audio format that provides high-quality sound.
+          It is often used for streaming due to its efficient compression and
+          ability to maintain good audio quality at lower bitrates. The Ogg
+          Vorbis codec is commonly used with this format.
+        </td>
+      </tr>
+      <tr>
+        <td>WAV</td>
+        <td>Audio</td>
+        <td>
+          WAV is an audio file format that stores waveform data. It is known for
+          its high audio quality because it uses lossless compression. As a
+          result, WAV files tend to be large, but they preserve the full
+          fidelity of the original recording, making them suitable for
+          professional audio applications.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
