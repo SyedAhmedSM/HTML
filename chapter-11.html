@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-11</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your Email"
+        required
+      />
+      <br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" />
+      <br />
+      <label for="color">Color:</label>
+      <input type="color" name="color" id="color" />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <h1>Displaying video with controls and poster image</h1>
+    <video
+      controls
+      poster="https://images.pexels.com/photos/1624600/pexels-photo-1624600.jpeg"
+      width="620"
+    >
+      <source
+        src="https://videos.pexels.com/video-files/1394254/1394254-uhd_2732_1440_24fps.mp4"
+        type="video/mp4"
+      />
+      <track
+        src="subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+        default
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <h1>Draw a Rectangle</h1>
+    <canvas
+      id="myCanvas"
+      width="200"
+      height="100"
+      style="border: 1px solid #000000"
+    ></canvas>
+
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var context = canvas.getContext("2d");
+      context.fillStyle = "#FF0000";
+      context.fillRect(20, 20, 150, 75);
+    </script>
+  </body>
+</html>

@@ -81,3 +81,12 @@ A code repo for HTML assignment/task at Web Dev Cohort
    - An input field with `required` and `placeholder` attributes.
 2. Create a styled paragraph using the `style` attribute.
 3. Use the `data-*` attribute to store custom data.
+
+## Chapter-11
+
+1. Create a form with the following fields:
+   - Email (required)
+   - Date of birth (date picker)
+   - Favorite color (color picker)
+2. Embed a video with a poster image and controls.
+3. Draw a rectangle using the **`<canvas>`** element and JavaScript.
